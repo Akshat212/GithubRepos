@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Assignments/GithubRepos/app/src/main/res/drawable/rect.xml" value="0.1165" />
         <entry key="..\:/Assignments/GithubRepos/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Assignments/GithubRepos/app/src/main/res/layout/activity_single_repo.xml" value="0.25" />
         <entry key="..\:/Assignments/GithubRepos/app/src/main/res/layout/fragment_repo.xml" value="0.25" />
         <entry key="..\:/Assignments/GithubRepos/app/src/main/res/layout/list_item_repos.xml" value="0.25" />
       </map>

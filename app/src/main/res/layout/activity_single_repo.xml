@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".RepoFragment">
+    tools:context=".SingleRepoActivity">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -14,11 +14,10 @@
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/ltStar"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
-            android:layout_marginEnd="25dp"
             android:layout_marginBottom="25dp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
@@ -29,7 +28,8 @@
             android:id="@+id/tvStarCount"
             android:textSize="24sp"
             android:textColor="@color/black"
-            android:layout_marginTop="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="60dp"
             android:fontFamily="sans-serif-condensed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -44,16 +44,16 @@
         android:fontFamily="sans-serif-condensed"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:layout_margin="12dp"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
         android:id="@+id/tvReadme"
+        android:gravity="center"
         android:background="@drawable/rect"
         android:layout_width="match_parent"
-        android:maxLines="6"
-        android:layout_height="50dp"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
