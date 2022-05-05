@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GithubRepos</string>
+    <string name="my_repo">My Repo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="star_count">2345</string>
+    <string name="readme">README</string>
+</resources>
